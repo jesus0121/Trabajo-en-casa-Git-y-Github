@@ -17,3 +17,8 @@ Route::get('/niñez', function () {
 Route::get('/adolescencia', function () {
     return view('adolescencia');
 });
+
+Route::get('/actualmente', function () {
+    return view('actualmente');
+});
+
