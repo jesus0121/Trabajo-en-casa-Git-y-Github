@@ -22,3 +22,8 @@ Route::get('/actualmente', function () {
     return view('actualmente');
 });
 
+Route::get('/metas', function () {
+    return view('metas');
+});
+
+
