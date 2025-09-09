@@ -26,4 +26,7 @@ Route::get('/metas', function () {
     return view('metas');
 });
 
+Route::get('/Colegio', function () {
+    return view('Colegio');
+});
 
